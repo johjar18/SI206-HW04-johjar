@@ -1,6 +1,4 @@
 def ask_question():
-
-
     tof= False
     while tof is False:
         question_response= input("What is your question?")
@@ -12,9 +10,5 @@ def ask_question():
             pass
         else:
             print("I can only answer questions!")
-
-
-
-
 
 ask_question()
