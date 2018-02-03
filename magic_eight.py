@@ -1,3 +1,20 @@
 def ask_question():
-    question_response= input("What is your question?")
-    # print(question_response)
+
+
+    tof= False
+    while tof is False:
+        question_response= input("What is your question?")
+        if question_response== 'quit':
+            tof= True
+            break
+
+        elif '?' in question_response:
+            pass
+        else:
+            print("I can only answer questions!")
+
+
+
+
+
+ask_question()
